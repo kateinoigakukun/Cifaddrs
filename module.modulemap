@@ -1,0 +1,4 @@
+module Cifaddrs [system] {
+	header "Headers/Cifaddrs.h"
+	export *
+}

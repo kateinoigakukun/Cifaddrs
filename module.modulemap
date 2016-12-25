@@ -1,4 +1,10 @@
-module Cifaddrs [system] {
+module Cifaddrs_Linux [system] {
 	header "Headers/Cifaddrs.h"
+	export *
+}
+
+module Cifaddrs_Unix [system] {
+	header "Headers/Cifaddrs.h"
+	header "Headers/Cifaddrs_Unix.h"
 	export *
 }
